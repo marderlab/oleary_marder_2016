@@ -19,15 +19,6 @@ e_h = -20;
 % initial memb potential
 v0 = -60;
 
-gbar_leak = 0.01+rand*0.01;
-gbar_na = 100 + rand*50;
-gbar_kd = 10 + rand*30;
-gbar_ka = 5 + rand*20;
-gbar_kca = 10 + rand*30;
-gbar_cas = 0.5+rand*1.5;
-gbar_cat = 0.5+rand*1.5;
-gbar_h = 0.01+rand*0.1;
-
 %max conductances
 gs = [95.0174    0.7370    0.9627   10.1772   11.2365   18.0006    0.0110    0.0187];
 
